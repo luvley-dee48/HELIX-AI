@@ -1,9 +1,9 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Bot } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const SiteHeader = () => {
-  const { pathname } = useLocation();
+  
   const navItems = [
     { to: "/#products", label: "Products" },
     { to: "/#features", label: "Features" },
