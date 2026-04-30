@@ -1,5 +1,5 @@
 import { NavLink, Outlet, useLocation, Link } from "react-router-dom";
-import { Bot, LayoutDashboard, MessageSquare, Settings, Target, Ticket, Users, LogOut, Search, Bell } from "lucide-react";
+import { Bot, LayoutDashboard, Settings, Target, Ticket, Users, LogOut, Search, Bell } from "lucide-react";
 import { Input } from "@/components/ui/input";
 
 const nav = [
